@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/baseline_mic_none_24"
+        android:layout_height="150dp">
+    </ImageView>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Welcome To"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="MUSIC APP"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:layout_width="120dp"
+        android:text="Login In"
+        android:id="@+id/btnLogin"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:layout_width="160dp"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="or Quick Login \n With Touch ID"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/sensor"
+        android:background="@drawable/baseline_fingerprint_24"
+        android:layout_height="80dp">
+    </ImageView>
+</LinearLayout>
